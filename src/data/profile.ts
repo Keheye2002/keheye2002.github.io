@@ -299,6 +299,7 @@ export const profile = {
           links: [
             { href: "https://xsparkai.com/Spark-0/", label: { en: "Project Page", zh: "项目主页" } },
             { href: "https://arxiv.org/abs/2610.22342", label: same("arXiv") },
+            { href: "https://github.com/XsparkAI/Spark-0", label: { en: "Code", zh: "代码" } },
           ],
         },
       ],
