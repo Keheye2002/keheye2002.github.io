@@ -4,7 +4,7 @@ export type Lang = (typeof languages)[number];
 const en = {
   metaTitle: "Kehe Ye (叶可禾)",
   metaDescription:
-    "Kehe Ye is a robotics system infrastructure engineer at Xspark AI, building data and evaluation infrastructure for embodied AI. Co-first author of FieldGen.",
+    "Kehe Ye leads the Software Development Group in the Systems Engineering Department at Xspark AI, building data and evaluation infrastructure for embodied AI. Co-first author of FieldGen and author of Spark-0.",
   navNews: "News",
   navPubs: "Publications",
   navExperience: "Experience",
@@ -37,7 +37,7 @@ const en = {
 const zh: { [K in keyof typeof en]: string } = {
   metaTitle: "叶可禾 (Kehe Ye)",
   metaDescription:
-    "叶可禾，Xspark AI 机器人系统基础设施工程师，做具身智能的数据与评测基础设施，FieldGen 共同第一作者。",
+    "叶可禾，Xspark AI 系统工程部软件开发组负责人，做具身智能的数据与评测基础设施，FieldGen 共同第一作者、Spark-0 作者。",
   navNews: "动态",
   navPubs: "论文",
   navExperience: "经历",

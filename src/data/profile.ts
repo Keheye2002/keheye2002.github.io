@@ -71,7 +71,10 @@ export const profile = {
   heroBackdrop: fieldgenPick,
   roles: [
     {
-      label: { en: "System Infra Engineer", zh: "系统基础设施工程师" },
+      label: {
+        en: "Software Dev Group Lead · Systems Eng.",
+        zh: "软件开发组负责人 · 系统工程部",
+      },
       value: same("Xspark AI"),
     },
     {
@@ -84,8 +87,8 @@ export const profile = {
     zh: "为**会学习的机器人**做基础设施",
   } satisfies Copy,
   bio: {
-    en: "Robotics system infrastructure engineer at **Xspark AI**, building the data and evaluation layer for embodied AI. Co-first author of **FieldGen** and an author of **Spark-0**. Contributor to **XPolicyLab** (**Best Tool Paper**, IROS 2026 ScaleInfra Workshop), the **RoboDojo** real-robot evaluation infrastructure, and **HumanTouch**. Previously at **AgiBot** and **Tencent**, and a two-time **ICPC Asia Regional** silver medalist.",
-    zh: "**Xspark AI** 机器人系统基础设施工程师，做具身智能的数据与评测基础设施。**FieldGen** 共同第一作者，**Spark-0** 作者，参与 **XPolicyLab**（IROS 2026 ScaleInfra Workshop **最佳工具论文奖**）、**RoboDojo** 真机评测基础设施与 **HumanTouch**。曾在**智元 AgiBot** 与**腾讯**工作，两次获得 **ICPC 亚洲区域赛**银牌。",
+    en: "Lead of the Software Development Group in the Systems Engineering Department at **Xspark AI**, building the data and evaluation layer for embodied AI. Co-first author of **FieldGen** and an author of **Spark-0**. Contributor to **XPolicyLab** (**Best Tool Paper**, IROS 2026 ScaleInfra Workshop), the **RoboDojo** real-robot evaluation infrastructure, and **HumanTouch**. Previously at **AgiBot** and **Tencent**, and a two-time **ICPC Asia Regional** silver medalist.",
+    zh: "**Xspark AI** 系统工程部软件开发组负责人，做具身智能的数据与评测基础设施。**FieldGen** 共同第一作者，**Spark-0** 作者，参与 **XPolicyLab**（IROS 2026 ScaleInfra Workshop **最佳工具论文奖**）、**RoboDojo** 真机评测基础设施与 **HumanTouch**。曾在**智元 AgiBot** 与**腾讯**工作，两次获得 **ICPC 亚洲区域赛**银牌。",
   } satisfies Copy,
   links: [
     { icon: "email", href: "mailto:keheye2002@gmail.com", label: { en: "Email", zh: "邮箱" } },
@@ -467,7 +470,10 @@ export const profile = {
       logo: xsparkLogo,
       logoAlt: "Xspark AI",
       org: same("Xspark AI"),
-      role: { en: "Robotics System Infrastructure Engineer", zh: "机器人系统基础设施工程师" },
+      role: {
+        en: "Lead, Software Development Group, Systems Engineering Dept.",
+        zh: "软件开发组负责人，系统工程部",
+      },
       when: { en: "2025.11 – present", zh: "2025.11 – 至今" },
       place: { en: "Shenzhen", zh: "深圳" },
       detail: {

@@ -21,7 +21,9 @@ const favicon = await getImage({ src: profile.avatar, width: 64, height: 64, for
 const touchIcon = await getImage({ src: profile.avatar, width: 180, height: 180, format: "png" });
 const image = new URL(ogImage.src, Astro.site).href;
 const jobTitle =
-  lang === "zh" ? "机器人系统基础设施工程师" : "Robotics System Infrastructure Engineer";
+  lang === "zh"
+    ? "系统工程部软件开发组负责人"
+    : "Lead, Software Development Group, Systems Engineering Dept.";
 
 const jsonLd = {
   "@context": "https://schema.org",
